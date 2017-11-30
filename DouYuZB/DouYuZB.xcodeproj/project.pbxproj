@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2434A435CDA8F1D41CE144DF /* Pods_DouYuZB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD46480F283F7D1E8B67D41 /* Pods_DouYuZB.framework */; };
+		3B0894491F90863500A1B582 /* ZYFunnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0894481F90863500A1B582 /* ZYFunnyViewController.swift */; };
+		3B08944B1F908A4100A1B582 /* ZYFunnyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B08944A1F908A4100A1B582 /* ZYFunnyViewModel.swift */; };
+		3B08944D1F90919600A1B582 /* ZYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B08944C1F90919600A1B582 /* ZYBaseViewController.swift */; };
+		3B0894531F90A5A400A1B582 /* ZYRoomShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0894521F90A5A400A1B582 /* ZYRoomShowViewController.swift */; };
+		3B0894551F90A5B600A1B582 /* ZYRoomNormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0894541F90A5B600A1B582 /* ZYRoomNormalViewController.swift */; };
+		3B0894571F90A7A300A1B582 /* ZYCustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0894561F90A7A300A1B582 /* ZYCustomNavigationController.swift */; };
+		3B0D08F61F8B186B00F3EFD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D08F51F8B186B00F3EFD8 /* AppDelegate.swift */; };
+		3B0D08FB1F8B186B00F3EFD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0D08F91F8B186B00F3EFD8 /* Main.storyboard */; };
+		3B0D08FD1F8B186B00F3EFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0D08FC1F8B186B00F3EFD8 /* Assets.xcassets */; };
+		3B0D09001F8B186B00F3EFD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0D08FE1F8B186B00F3EFD8 /* LaunchScreen.storyboard */; };
+		3B0D09241F8B1E0700F3EFD8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0D09231F8B1E0700F3EFD8 /* Home.storyboard */; };
+		3B0D09261F8B1E3C00F3EFD8 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0D09251F8B1E3C00F3EFD8 /* Live.storyboard */; };
+		3B0D09281F8B1E6500F3EFD8 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0D09271F8B1E6500F3EFD8 /* Follow.storyboard */; };
+		3B0D092A1F8B1E8B00F3EFD8 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0D09291F8B1E8B00F3EFD8 /* Profile.storyboard */; };
+		3B0D092E1F8B235300F3EFD8 /* ZYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D092D1F8B235300F3EFD8 /* ZYHomeViewController.swift */; };
+		3B0D09311F8B29DC00F3EFD8 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D09301F8B29DC00F3EFD8 /* UIBarButtonItem+Extension.swift */; };
+		3B0D09331F8B366200F3EFD8 /* ZYPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D09321F8B366200F3EFD8 /* ZYPageTitleView.swift */; };
+		3B0D09351F8B397400F3EFD8 /* ZYCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D09341F8B397400F3EFD8 /* ZYCommon.swift */; };
+		3B48375F1F8DEDE0008395A7 /* ZYCollectionBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48375E1F8DEDE0008395A7 /* ZYCollectionBaseCell.swift */; };
+		3B4837611F8DF160008395A7 /* ZYRecommendCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4837601F8DF160008395A7 /* ZYRecommendCycleView.swift */; };
+		3B4837631F8DF16D008395A7 /* ZYRecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B4837621F8DF16D008395A7 /* ZYRecommendCycleView.xib */; };
+		3B4837651F8E0061008395A7 /* ZYCycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4837641F8E0061008395A7 /* ZYCycleModel.swift */; };
+		3B4837681F8E0545008395A7 /* ZYCollectionCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4837661F8E0545008395A7 /* ZYCollectionCycleCell.swift */; };
+		3B4837691F8E0545008395A7 /* ZYCollectionCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B4837671F8E0545008395A7 /* ZYCollectionCycleCell.xib */; };
+		3B4837721F8E209E008395A7 /* ZYRecommendGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B4837711F8E209E008395A7 /* ZYRecommendGameView.xib */; };
+		3B4837741F8E20AB008395A7 /* ZYRecommendGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4837731F8E20AB008395A7 /* ZYRecommendGameView.swift */; };
+		3B6ED5A41F8B49DC00CC8D69 /* ZYLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6ED5A31F8B49DC00CC8D69 /* ZYLiveViewController.swift */; };
+		3B6ED5E61F8B629400CC8D69 /* ZYPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6ED5E51F8B629400CC8D69 /* ZYPageContentView.swift */; };
+		3B6ED5E81F8B670E00CC8D69 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6ED5E71F8B670E00CC8D69 /* UIColor+Extension.swift */; };
+		3B6ED5EC1F8C5E7600CC8D69 /* ZYMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6ED5EB1F8C5E7600CC8D69 /* ZYMainTabBarController.swift */; };
+		3B88D3CC1F8FB7FF00323673 /* ZYAmuseMenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B88D3CA1F8FB7FF00323673 /* ZYAmuseMenuViewCell.swift */; };
+		3B88D3CD1F8FB7FF00323673 /* ZYAmuseMenuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B88D3CB1F8FB7FF00323673 /* ZYAmuseMenuViewCell.xib */; };
+		3BAC88E01F8F0F3F00DD6A2C /* ZYGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC88DF1F8F0F3F00DD6A2C /* ZYGameViewController.swift */; };
+		3BAC88E21F8F160300DD6A2C /* ZYGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC88E11F8F160300DD6A2C /* ZYGameViewModel.swift */; };
+		3BAC88E41F8F17A400DD6A2C /* ZYGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC88E31F8F17A400DD6A2C /* ZYGameModel.swift */; };
+		3BAC88E61F8F194C00DD6A2C /* ZYBaseGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC88E51F8F194C00DD6A2C /* ZYBaseGameModel.swift */; };
+		3BAC88E81F8F3FC600DD6A2C /* ZYAmuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC88E71F8F3FC600DD6A2C /* ZYAmuseViewController.swift */; };
+		3BAC88EA1F8F431100DD6A2C /* ZYAmuseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC88E91F8F431100DD6A2C /* ZYAmuseViewModel.swift */; };
+		3BCDD57F1F8E4FC6007E2F4B /* ZYCollectionGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDD57D1F8E4FC6007E2F4B /* ZYCollectionGameCell.swift */; };
+		3BCDD5801F8E4FC6007E2F4B /* ZYCollectionGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDD57E1F8E4FC6007E2F4B /* ZYCollectionGameCell.xib */; };
+		3BD1640A1F8F4B3600846DCE /* ZYBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD164091F8F4B3600846DCE /* ZYBaseViewModel.swift */; };
+		3BD1640E1F8F5E6700846DCE /* ZYBaseAnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD1640D1F8F5E6700846DCE /* ZYBaseAnchorViewController.swift */; };
+		3BD164321F8F701000846DCE /* ZYAmuseMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD164311F8F701000846DCE /* ZYAmuseMenuView.swift */; };
+		3BD164341F8F705300846DCE /* ZYAmuseMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD164331F8F705300846DCE /* ZYAmuseMenuView.xib */; };
+		3BF99FB51F8D119F00BA7DB6 /* ZYAnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF99FB41F8D119F00BA7DB6 /* ZYAnchorModel.swift */; };
+		3BFE12C81F8C8F8E0040EE36 /* ZYRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE12C71F8C8F8E0040EE36 /* ZYRecommendViewController.swift */; };
+		3BFE12CB1F8C998F0040EE36 /* ZYCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE12C91F8C998F0040EE36 /* ZYCollectionHeaderView.swift */; };
+		3BFE12CC1F8C998F0040EE36 /* ZYCollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BFE12CA1F8C998F0040EE36 /* ZYCollectionHeaderView.xib */; };
+		3BFE12CF1F8C9D060040EE36 /* ZYCollectionNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE12CD1F8C9D060040EE36 /* ZYCollectionNormalCell.swift */; };
+		3BFE12D01F8C9D060040EE36 /* ZYCollectionNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BFE12CE1F8C9D060040EE36 /* ZYCollectionNormalCell.xib */; };
+		3BFE12D31F8C9D2C0040EE36 /* ZYCollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE12D11F8C9D2C0040EE36 /* ZYCollectionPrettyCell.swift */; };
+		3BFE12D41F8C9D2C0040EE36 /* ZYCollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BFE12D21F8C9D2C0040EE36 /* ZYCollectionPrettyCell.xib */; };
+		3BFE12F61F8CBDD90040EE36 /* ZYNetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE12F51F8CBDD90040EE36 /* ZYNetworkTools.swift */; };
+		3BFE12F91F8CC0F50040EE36 /* ZYRecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE12F81F8CC0F50040EE36 /* ZYRecommendViewModel.swift */; };
+		3BFE12FB1F8CC42D0040EE36 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE12FA1F8CC42D0040EE36 /* NSDate+Extension.swift */; };
+		3BFE12FD1F8CCE7B0040EE36 /* ZYAnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE12FC1F8CCE7B0040EE36 /* ZYAnchorGroup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B0894481F90863500A1B582 /* ZYFunnyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYFunnyViewController.swift; sourceTree = "<group>"; };
+		3B08944A1F908A4100A1B582 /* ZYFunnyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYFunnyViewModel.swift; sourceTree = "<group>"; };
+		3B08944C1F90919600A1B582 /* ZYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYBaseViewController.swift; sourceTree = "<group>"; };
+		3B0894521F90A5A400A1B582 /* ZYRoomShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYRoomShowViewController.swift; sourceTree = "<group>"; };
+		3B0894541F90A5B600A1B582 /* ZYRoomNormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYRoomNormalViewController.swift; sourceTree = "<group>"; };
+		3B0894561F90A7A300A1B582 /* ZYCustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYCustomNavigationController.swift; sourceTree = "<group>"; };
+		3B0D08F21F8B186B00F3EFD8 /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0D08F51F8B186B00F3EFD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B0D08FA1F8B186B00F3EFD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B0D08FC1F8B186B00F3EFD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B0D08FF1F8B186B00F3EFD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B0D09011F8B186B00F3EFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B0D09231F8B1E0700F3EFD8 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		3B0D09251F8B1E3C00F3EFD8 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		3B0D09271F8B1E6500F3EFD8 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		3B0D09291F8B1E8B00F3EFD8 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		3B0D092D1F8B235300F3EFD8 /* ZYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYHomeViewController.swift; sourceTree = "<group>"; };
+		3B0D09301F8B29DC00F3EFD8 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		3B0D09321F8B366200F3EFD8 /* ZYPageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYPageTitleView.swift; sourceTree = "<group>"; };
+		3B0D09341F8B397400F3EFD8 /* ZYCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYCommon.swift; sourceTree = "<group>"; };
+		3B48375E1F8DEDE0008395A7 /* ZYCollectionBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYCollectionBaseCell.swift; sourceTree = "<group>"; };
+		3B4837601F8DF160008395A7 /* ZYRecommendCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYRecommendCycleView.swift; sourceTree = "<group>"; };
+		3B4837621F8DF16D008395A7 /* ZYRecommendCycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYRecommendCycleView.xib; sourceTree = "<group>"; };
+		3B4837641F8E0061008395A7 /* ZYCycleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYCycleModel.swift; sourceTree = "<group>"; };
+		3B4837661F8E0545008395A7 /* ZYCollectionCycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYCollectionCycleCell.swift; sourceTree = "<group>"; };
+		3B4837671F8E0545008395A7 /* ZYCollectionCycleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYCollectionCycleCell.xib; sourceTree = "<group>"; };
+		3B4837711F8E209E008395A7 /* ZYRecommendGameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYRecommendGameView.xib; sourceTree = "<group>"; };
+		3B4837731F8E20AB008395A7 /* ZYRecommendGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYRecommendGameView.swift; sourceTree = "<group>"; };
+		3B6ED5A31F8B49DC00CC8D69 /* ZYLiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYLiveViewController.swift; sourceTree = "<group>"; };
+		3B6ED5E51F8B629400CC8D69 /* ZYPageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYPageContentView.swift; sourceTree = "<group>"; };
+		3B6ED5E71F8B670E00CC8D69 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		3B6ED5EB1F8C5E7600CC8D69 /* ZYMainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYMainTabBarController.swift; sourceTree = "<group>"; };
+		3B88D3CA1F8FB7FF00323673 /* ZYAmuseMenuViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYAmuseMenuViewCell.swift; sourceTree = "<group>"; };
+		3B88D3CB1F8FB7FF00323673 /* ZYAmuseMenuViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYAmuseMenuViewCell.xib; sourceTree = "<group>"; };
+		3BAC88DF1F8F0F3F00DD6A2C /* ZYGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYGameViewController.swift; sourceTree = "<group>"; };
+		3BAC88E11F8F160300DD6A2C /* ZYGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYGameViewModel.swift; sourceTree = "<group>"; };
+		3BAC88E31F8F17A400DD6A2C /* ZYGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYGameModel.swift; sourceTree = "<group>"; };
+		3BAC88E51F8F194C00DD6A2C /* ZYBaseGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYBaseGameModel.swift; sourceTree = "<group>"; };
+		3BAC88E71F8F3FC600DD6A2C /* ZYAmuseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYAmuseViewController.swift; sourceTree = "<group>"; };
+		3BAC88E91F8F431100DD6A2C /* ZYAmuseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYAmuseViewModel.swift; sourceTree = "<group>"; };
+		3BCDD57D1F8E4FC6007E2F4B /* ZYCollectionGameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYCollectionGameCell.swift; sourceTree = "<group>"; };
+		3BCDD57E1F8E4FC6007E2F4B /* ZYCollectionGameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYCollectionGameCell.xib; sourceTree = "<group>"; };
+		3BD164091F8F4B3600846DCE /* ZYBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYBaseViewModel.swift; sourceTree = "<group>"; };
+		3BD1640D1F8F5E6700846DCE /* ZYBaseAnchorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYBaseAnchorViewController.swift; sourceTree = "<group>"; };
+		3BD164311F8F701000846DCE /* ZYAmuseMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYAmuseMenuView.swift; sourceTree = "<group>"; };
+		3BD164331F8F705300846DCE /* ZYAmuseMenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYAmuseMenuView.xib; sourceTree = "<group>"; };
+		3BF99FB41F8D119F00BA7DB6 /* ZYAnchorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYAnchorModel.swift; sourceTree = "<group>"; };
+		3BFE12C71F8C8F8E0040EE36 /* ZYRecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYRecommendViewController.swift; sourceTree = "<group>"; };
+		3BFE12C91F8C998F0040EE36 /* ZYCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYCollectionHeaderView.swift; sourceTree = "<group>"; };
+		3BFE12CA1F8C998F0040EE36 /* ZYCollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYCollectionHeaderView.xib; sourceTree = "<group>"; };
+		3BFE12CD1F8C9D060040EE36 /* ZYCollectionNormalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYCollectionNormalCell.swift; sourceTree = "<group>"; };
+		3BFE12CE1F8C9D060040EE36 /* ZYCollectionNormalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYCollectionNormalCell.xib; sourceTree = "<group>"; };
+		3BFE12D11F8C9D2C0040EE36 /* ZYCollectionPrettyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYCollectionPrettyCell.swift; sourceTree = "<group>"; };
+		3BFE12D21F8C9D2C0040EE36 /* ZYCollectionPrettyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYCollectionPrettyCell.xib; sourceTree = "<group>"; };
+		3BFE12F51F8CBDD90040EE36 /* ZYNetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYNetworkTools.swift; sourceTree = "<group>"; };
+		3BFE12F81F8CC0F50040EE36 /* ZYRecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYRecommendViewModel.swift; sourceTree = "<group>"; };
+		3BFE12FA1F8CC42D0040EE36 /* NSDate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
+		3BFE12FC1F8CCE7B0040EE36 /* ZYAnchorGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYAnchorGroup.swift; sourceTree = "<group>"; };
+		8DD46480F283F7D1E8B67D41 /* Pods_DouYuZB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouYuZB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		928F22A47FCA260DD181A7BA /* Pods-DouYuZB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuZB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuZB/Pods-DouYuZB.debug.xcconfig"; sourceTree = "<group>"; };
+		A2B1866AB38ED2DCFCCBD2E3 /* Pods-DouYuZB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuZB.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuZB/Pods-DouYuZB.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B0D08EF1F8B186B00F3EFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2434A435CDA8F1D41CE144DF /* Pods_DouYuZB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B08944E1F90A58700A1B582 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				3B08944F1F90A58700A1B582 /* Controller */,
+				3B0894501F90A58700A1B582 /* Model */,
+				3B0894511F90A58700A1B582 /* View */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		3B08944F1F90A58700A1B582 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B0894541F90A5B600A1B582 /* ZYRoomNormalViewController.swift */,
+				3B0894521F90A5A400A1B582 /* ZYRoomShowViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B0894501F90A58700A1B582 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B0894511F90A58700A1B582 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B0D08E91F8B186A00F3EFD8 = {
+			isa = PBXGroup;
+			children = (
+				3B0D08F41F8B186B00F3EFD8 /* DouYuZB */,
+				3B0D08F31F8B186B00F3EFD8 /* Products */,
+				735EC89021499A5C06451CDC /* Pods */,
+				7E455A6121400B5F7EA9BA8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B0D08F31F8B186B00F3EFD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D08F21F8B186B00F3EFD8 /* DouYuZB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B0D08F41F8B186B00F3EFD8 /* DouYuZB */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D09071F8B18F400F3EFD8 /* Classes */,
+				3B0D08F51F8B186B00F3EFD8 /* AppDelegate.swift */,
+				3B0D08FC1F8B186B00F3EFD8 /* Assets.xcassets */,
+				3B0D08FE1F8B186B00F3EFD8 /* LaunchScreen.storyboard */,
+				3B0D09011F8B186B00F3EFD8 /* Info.plist */,
+			);
+			path = DouYuZB;
+			sourceTree = "<group>";
+		};
+		3B0D09071F8B18F400F3EFD8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D09141F8B18F400F3EFD8 /* Main */,
+				3B08944E1F90A58700A1B582 /* Room */,
+				3B0D090C1F8B18F400F3EFD8 /* Home */,
+				3B0D09101F8B18F400F3EFD8 /* Live */,
+				3B0D09081F8B18F400F3EFD8 /* Follow */,
+				3B0D09181F8B18F400F3EFD8 /* Profile */,
+				3B0D091C1F8B18F400F3EFD8 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3B0D09081F8B18F400F3EFD8 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D09091F8B18F400F3EFD8 /* Controller */,
+				3B0D090A1F8B18F400F3EFD8 /* Model */,
+				3B0D090B1F8B18F400F3EFD8 /* View */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		3B0D09091F8B18F400F3EFD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D09271F8B1E6500F3EFD8 /* Follow.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B0D090A1F8B18F400F3EFD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B0D090B1F8B18F400F3EFD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B0D090C1F8B18F400F3EFD8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3BFE12F71F8CC08B0040EE36 /* ViewModel */,
+				3B0D090D1F8B18F400F3EFD8 /* Controller */,
+				3B0D090E1F8B18F400F3EFD8 /* Model */,
+				3B0D090F1F8B18F400F3EFD8 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3B0D090D1F8B18F400F3EFD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D09231F8B1E0700F3EFD8 /* Home.storyboard */,
+				3B0D092D1F8B235300F3EFD8 /* ZYHomeViewController.swift */,
+				3BFE12C71F8C8F8E0040EE36 /* ZYRecommendViewController.swift */,
+				3BAC88DF1F8F0F3F00DD6A2C /* ZYGameViewController.swift */,
+				3BAC88E71F8F3FC600DD6A2C /* ZYAmuseViewController.swift */,
+				3BD1640D1F8F5E6700846DCE /* ZYBaseAnchorViewController.swift */,
+				3B0894481F90863500A1B582 /* ZYFunnyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B0D090E1F8B18F400F3EFD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B4837641F8E0061008395A7 /* ZYCycleModel.swift */,
+				3BAC88E31F8F17A400DD6A2C /* ZYGameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B0D090F1F8B18F400F3EFD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BFE12C91F8C998F0040EE36 /* ZYCollectionHeaderView.swift */,
+				3BFE12CA1F8C998F0040EE36 /* ZYCollectionHeaderView.xib */,
+				3B4837601F8DF160008395A7 /* ZYRecommendCycleView.swift */,
+				3B4837621F8DF16D008395A7 /* ZYRecommendCycleView.xib */,
+				3B4837661F8E0545008395A7 /* ZYCollectionCycleCell.swift */,
+				3B4837671F8E0545008395A7 /* ZYCollectionCycleCell.xib */,
+				3B4837731F8E20AB008395A7 /* ZYRecommendGameView.swift */,
+				3B4837711F8E209E008395A7 /* ZYRecommendGameView.xib */,
+				3BCDD57D1F8E4FC6007E2F4B /* ZYCollectionGameCell.swift */,
+				3BCDD57E1F8E4FC6007E2F4B /* ZYCollectionGameCell.xib */,
+				3BD164311F8F701000846DCE /* ZYAmuseMenuView.swift */,
+				3BD164331F8F705300846DCE /* ZYAmuseMenuView.xib */,
+				3B88D3CA1F8FB7FF00323673 /* ZYAmuseMenuViewCell.swift */,
+				3B88D3CB1F8FB7FF00323673 /* ZYAmuseMenuViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B0D09101F8B18F400F3EFD8 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D09111F8B18F400F3EFD8 /* Controller */,
+				3B0D09121F8B18F400F3EFD8 /* Model */,
+				3B0D09131F8B18F400F3EFD8 /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		3B0D09111F8B18F400F3EFD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D09251F8B1E3C00F3EFD8 /* Live.storyboard */,
+				3B6ED5A31F8B49DC00CC8D69 /* ZYLiveViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B0D09121F8B18F400F3EFD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B0D09131F8B18F400F3EFD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B0D09141F8B18F400F3EFD8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D09151F8B18F400F3EFD8 /* Controller */,
+				3B0D09161F8B18F400F3EFD8 /* Model */,
+				3B0D09171F8B18F400F3EFD8 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3B0D09151F8B18F400F3EFD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D08F91F8B186B00F3EFD8 /* Main.storyboard */,
+				3B6ED5EB1F8C5E7600CC8D69 /* ZYMainTabBarController.swift */,
+				3B08944C1F90919600A1B582 /* ZYBaseViewController.swift */,
+				3B0894561F90A7A300A1B582 /* ZYCustomNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B0D09161F8B18F400F3EFD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BAC88E51F8F194C00DD6A2C /* ZYBaseGameModel.swift */,
+				3BFE12FC1F8CCE7B0040EE36 /* ZYAnchorGroup.swift */,
+				3BF99FB41F8D119F00BA7DB6 /* ZYAnchorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B0D09171F8B18F400F3EFD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D09321F8B366200F3EFD8 /* ZYPageTitleView.swift */,
+				3B6ED5E51F8B629400CC8D69 /* ZYPageContentView.swift */,
+				3BFE12CD1F8C9D060040EE36 /* ZYCollectionNormalCell.swift */,
+				3BFE12CE1F8C9D060040EE36 /* ZYCollectionNormalCell.xib */,
+				3BFE12D11F8C9D2C0040EE36 /* ZYCollectionPrettyCell.swift */,
+				3BFE12D21F8C9D2C0040EE36 /* ZYCollectionPrettyCell.xib */,
+				3B48375E1F8DEDE0008395A7 /* ZYCollectionBaseCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B0D09181F8B18F400F3EFD8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D09191F8B18F400F3EFD8 /* Controller */,
+				3B0D091A1F8B18F400F3EFD8 /* Model */,
+				3B0D091B1F8B18F400F3EFD8 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3B0D09191F8B18F400F3EFD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D09291F8B1E8B00F3EFD8 /* Profile.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B0D091A1F8B18F400F3EFD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B0D091B1F8B18F400F3EFD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B0D091C1F8B18F400F3EFD8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D092F1F8B29AE00F3EFD8 /* Extension */,
+				3B0D09341F8B397400F3EFD8 /* ZYCommon.swift */,
+				3BFE12F51F8CBDD90040EE36 /* ZYNetworkTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3B0D092F1F8B29AE00F3EFD8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D09301F8B29DC00F3EFD8 /* UIBarButtonItem+Extension.swift */,
+				3B6ED5E71F8B670E00CC8D69 /* UIColor+Extension.swift */,
+				3BFE12FA1F8CC42D0040EE36 /* NSDate+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3BFE12F71F8CC08B0040EE36 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3BFE12F81F8CC0F50040EE36 /* ZYRecommendViewModel.swift */,
+				3BAC88E11F8F160300DD6A2C /* ZYGameViewModel.swift */,
+				3BAC88E91F8F431100DD6A2C /* ZYAmuseViewModel.swift */,
+				3BD164091F8F4B3600846DCE /* ZYBaseViewModel.swift */,
+				3B08944A1F908A4100A1B582 /* ZYFunnyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		735EC89021499A5C06451CDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				928F22A47FCA260DD181A7BA /* Pods-DouYuZB.debug.xcconfig */,
+				A2B1866AB38ED2DCFCCBD2E3 /* Pods-DouYuZB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E455A6121400B5F7EA9BA8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DD46480F283F7D1E8B67D41 /* Pods_DouYuZB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B0D08F11F8B186B00F3EFD8 /* DouYuZB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B0D09041F8B186B00F3EFD8 /* Build configuration list for PBXNativeTarget "DouYuZB" */;
+			buildPhases = (
+				0F727361677BFD61D8EA135B /* [CP] Check Pods Manifest.lock */,
+				3B0D08EE1F8B186B00F3EFD8 /* Sources */,
+				3B0D08EF1F8B186B00F3EFD8 /* Frameworks */,
+				3B0D08F01F8B186B00F3EFD8 /* Resources */,
+				0AEA8CB252196CE349BD4D1C /* [CP] Embed Pods Frameworks */,
+				630D233816C84BCEC426DAC4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DouYuZB;
+			productName = DouYuZB;
+			productReference = 3B0D08F21F8B186B00F3EFD8 /* DouYuZB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B0D08EA1F8B186A00F3EFD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZY;
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "竹雨";
+				TargetAttributes = {
+					3B0D08F11F8B186B00F3EFD8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3B0D08ED1F8B186A00F3EFD8 /* Build configuration list for PBXProject "DouYuZB" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B0D08E91F8B186A00F3EFD8;
+			productRefGroup = 3B0D08F31F8B186B00F3EFD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B0D08F11F8B186B00F3EFD8 /* DouYuZB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B0D08F01F8B186B00F3EFD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0D09001F8B186B00F3EFD8 /* LaunchScreen.storyboard in Resources */,
+				3B0D08FD1F8B186B00F3EFD8 /* Assets.xcassets in Resources */,
+				3BFE12D41F8C9D2C0040EE36 /* ZYCollectionPrettyCell.xib in Resources */,
+				3B4837721F8E209E008395A7 /* ZYRecommendGameView.xib in Resources */,
+				3BCDD5801F8E4FC6007E2F4B /* ZYCollectionGameCell.xib in Resources */,
+				3B4837631F8DF16D008395A7 /* ZYRecommendCycleView.xib in Resources */,
+				3B88D3CD1F8FB7FF00323673 /* ZYAmuseMenuViewCell.xib in Resources */,
+				3BD164341F8F705300846DCE /* ZYAmuseMenuView.xib in Resources */,
+				3BFE12D01F8C9D060040EE36 /* ZYCollectionNormalCell.xib in Resources */,
+				3B4837691F8E0545008395A7 /* ZYCollectionCycleCell.xib in Resources */,
+				3B0D08FB1F8B186B00F3EFD8 /* Main.storyboard in Resources */,
+				3B0D09261F8B1E3C00F3EFD8 /* Live.storyboard in Resources */,
+				3B0D09241F8B1E0700F3EFD8 /* Home.storyboard in Resources */,
+				3B0D092A1F8B1E8B00F3EFD8 /* Profile.storyboard in Resources */,
+				3BFE12CC1F8C998F0040EE36 /* ZYCollectionHeaderView.xib in Resources */,
+				3B0D09281F8B1E6500F3EFD8 /* Follow.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AEA8CB252196CE349BD4D1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouYuZB/Pods-DouYuZB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F727361677BFD61D8EA135B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		630D233816C84BCEC426DAC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouYuZB/Pods-DouYuZB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B0D08EE1F8B186B00F3EFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFE12CB1F8C998F0040EE36 /* ZYCollectionHeaderView.swift in Sources */,
+				3BFE12F61F8CBDD90040EE36 /* ZYNetworkTools.swift in Sources */,
+				3B6ED5E61F8B629400CC8D69 /* ZYPageContentView.swift in Sources */,
+				3B0894571F90A7A300A1B582 /* ZYCustomNavigationController.swift in Sources */,
+				3BFE12FD1F8CCE7B0040EE36 /* ZYAnchorGroup.swift in Sources */,
+				3B0D09331F8B366200F3EFD8 /* ZYPageTitleView.swift in Sources */,
+				3BAC88E81F8F3FC600DD6A2C /* ZYAmuseViewController.swift in Sources */,
+				3BD1640E1F8F5E6700846DCE /* ZYBaseAnchorViewController.swift in Sources */,
+				3BFE12CF1F8C9D060040EE36 /* ZYCollectionNormalCell.swift in Sources */,
+				3BFE12D31F8C9D2C0040EE36 /* ZYCollectionPrettyCell.swift in Sources */,
+				3B0894531F90A5A400A1B582 /* ZYRoomShowViewController.swift in Sources */,
+				3BFE12C81F8C8F8E0040EE36 /* ZYRecommendViewController.swift in Sources */,
+				3B0D09311F8B29DC00F3EFD8 /* UIBarButtonItem+Extension.swift in Sources */,
+				3BAC88E61F8F194C00DD6A2C /* ZYBaseGameModel.swift in Sources */,
+				3BAC88E41F8F17A400DD6A2C /* ZYGameModel.swift in Sources */,
+				3B4837741F8E20AB008395A7 /* ZYRecommendGameView.swift in Sources */,
+				3BAC88EA1F8F431100DD6A2C /* ZYAmuseViewModel.swift in Sources */,
+				3BFE12FB1F8CC42D0040EE36 /* NSDate+Extension.swift in Sources */,
+				3B08944B1F908A4100A1B582 /* ZYFunnyViewModel.swift in Sources */,
+				3B6ED5E81F8B670E00CC8D69 /* UIColor+Extension.swift in Sources */,
+				3BF99FB51F8D119F00BA7DB6 /* ZYAnchorModel.swift in Sources */,
+				3B6ED5EC1F8C5E7600CC8D69 /* ZYMainTabBarController.swift in Sources */,
+				3B08944D1F90919600A1B582 /* ZYBaseViewController.swift in Sources */,
+				3BD1640A1F8F4B3600846DCE /* ZYBaseViewModel.swift in Sources */,
+				3BCDD57F1F8E4FC6007E2F4B /* ZYCollectionGameCell.swift in Sources */,
+				3BFE12F91F8CC0F50040EE36 /* ZYRecommendViewModel.swift in Sources */,
+				3B0D092E1F8B235300F3EFD8 /* ZYHomeViewController.swift in Sources */,
+				3B4837681F8E0545008395A7 /* ZYCollectionCycleCell.swift in Sources */,
+				3B48375F1F8DEDE0008395A7 /* ZYCollectionBaseCell.swift in Sources */,
+				3BAC88E21F8F160300DD6A2C /* ZYGameViewModel.swift in Sources */,
+				3B0D09351F8B397400F3EFD8 /* ZYCommon.swift in Sources */,
+				3B4837611F8DF160008395A7 /* ZYRecommendCycleView.swift in Sources */,
+				3B0894551F90A5B600A1B582 /* ZYRoomNormalViewController.swift in Sources */,
+				3B0894491F90863500A1B582 /* ZYFunnyViewController.swift in Sources */,
+				3B0D08F61F8B186B00F3EFD8 /* AppDelegate.swift in Sources */,
+				3B6ED5A41F8B49DC00CC8D69 /* ZYLiveViewController.swift in Sources */,
+				3BAC88E01F8F0F3F00DD6A2C /* ZYGameViewController.swift in Sources */,
+				3BD164321F8F701000846DCE /* ZYAmuseMenuView.swift in Sources */,
+				3B88D3CC1F8FB7FF00323673 /* ZYAmuseMenuViewCell.swift in Sources */,
+				3B4837651F8E0061008395A7 /* ZYCycleModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B0D08F91F8B186B00F3EFD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B0D08FA1F8B186B00F3EFD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B0D08FE1F8B186B00F3EFD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B0D08FF1F8B186B00F3EFD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B0D09021F8B186B00F3EFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B0D09031F8B186B00F3EFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B0D09051F8B186B00F3EFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 928F22A47FCA260DD181A7BA /* Pods-DouYuZB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTB5XU6KFU;
+				INFOPLIST_FILE = DouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Emon.DouYuZB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3B0D09061F8B186B00F3EFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B1866AB38ED2DCFCCBD2E3 /* Pods-DouYuZB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTB5XU6KFU;
+				INFOPLIST_FILE = DouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Emon.DouYuZB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B0D08ED1F8B186A00F3EFD8 /* Build configuration list for PBXProject "DouYuZB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0D09021F8B186B00F3EFD8 /* Debug */,
+				3B0D09031F8B186B00F3EFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B0D09041F8B186B00F3EFD8 /* Build configuration list for PBXNativeTarget "DouYuZB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0D09051F8B186B00F3EFD8 /* Debug */,
+				3B0D09061F8B186B00F3EFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B0D08EA1F8B186A00F3EFD8 /* Project object */;
+}
